@@ -6,7 +6,7 @@ var myBankBalance2: Int = 100  // being explicit, using type annotation
 
 
 //: **Question 2**
-let puppyName = "Bella"           // using type inference
+var puppyName = "Bella"           // using type inference
 let puppyName2: String = "Bella"  // using type annotation
 
 
@@ -32,6 +32,6 @@ print("I now have $\(myBankBalance).")
 
 
 //: **Question 7**
-puppyName = "Marbles"  // you should get an error here: "Cannot assign to value: 'puppyName' is a 'let' constant"
+puppyName = "Marbles"  // you should get an error here: "Cannot assign to value: 'puppyName' is a 'let' constant" changed to VAR from LET so that it's mutable. 
 
 //: You cannot assign `puppyName` to a new value because it is a _constant_, and the values of constants cannot change
